@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url("https://use.typekit.net/eab8buj.css");
+
+body{
+    background-color: #141414;
+    font-family: 'VT323', monospace;
+    color: #EFEFEF;
+    width: 1120px;
+    margin: 64px auto 64px auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    grid-auto-flow: dense;
+}
+
+h1{
+    font-size: 72px;
+    text-align: center;
+    font-family: hydrophilia-iced, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 25px;
+}
+
+h2{
+    font-size: 32px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a {
+    color:#EFEFEF;
+    text-decoration: none;
+    font-size: 36px;
+    align-content: right;
+}
+
+a:hover{
+    color:#F56BAE;
+}
+
+/* INDEX */
+#introoptions {
+    grid-column: 5 / span 8;
+    margin: 25px;
+}
+
+ul {
+    text-align: left;
+}
+
+.flowers {
+    width: 750px;
+}
+
+
+/* INTRODUCTION PAGE */
+#madi {
+    width: 240px;
+  }
+
+.options {
+    margin-left: 5%;
+}
+#introduction {
+    margin-top: 136px;
+}
+
+#introtext {
+    grid-column: 5 / span 8;
+}
+
+.madigirl {
+    grid-column: 1 / span 3;
+    text-align: center;
+}
+
+.trekon {
+    grid-column: 11 / span 2;
+    text-align: right;
+}
+
+
+/* TRAVEL PAGES */
+.gifs {
+    grid-column: 1 / span 8;
+    size: 10px;
+}
+
+.here {
+    color :#141414;
+    background-color: #EFEFEF;
+    min-height: px;
+    text-align: center;
+}
+
+.stats {
+    text-align: center;
+}
+
+.blacklinks {
+    color:#141414;
+    animation-name: continueAnimate2;
+    animation-delay: 6s;
+    animation-direction: normal;
+    animation-duration: 0s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+    opacity: 0;
+}
+
+.blacklinks2 {
+    color:#141414;
+    animation-name: onlineAnimate2;
+    animation-delay: 6.5s;
+    animation-direction: normal;
+    animation-duration: 0s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+    opacity: 0;
+}
+
+.continue {
+    color: #141414;
+    animation-name: continueAnimate;
+    animation-delay: 6s;
+    animation-direction: normal;
+    animation-duration: 0s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+    opacity: 0;
+}
+
+.continue2 {
+    color: #141414;
+    animation-name: onlineAnimate;
+    animation-delay: 6.5s;
+    animation-direction: normal;
+    animation-duration: 0s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+    opacity: 0;
+}
+
+
+/* LANDMARK PAGES */
+.years {
+    font-size: 48px;
+    margin: 0;
+}
+
+.landmarktitles {
+    font-size: 48px;
+    color:#F56BAE
+}
+
+.landmarkdescriptions {
+    margin-left: 88px;
+    margin-right: 88px;
+}
+
+.location {
+    margin-bottom: 0;
+}
+
+#young {
+    color: red;
+    margin-bottom: 0;
+}
+
+.home {
+    grid-column: 11 / span 2;
+    text-align: right;
+    animation-name: homeAnimate;
+    animation-delay: 4s;
+    animation-direction: normal;
+    animation-duration: 0s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+    opacity: 0;
+}
+
+
+/* KEYFRAMES */
+@keyframes continueAnimate {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes continueAnimate2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes onlineAnimate {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes onlineAnimate2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes homeAnimate {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
